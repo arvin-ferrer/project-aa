@@ -1,0 +1,570 @@
+@import url(body.css);
+@import url(elements.css);
+@import url(animation.css);
+@import url(fonts.css);
+@import url(responsive.css);
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.logoName p{
+    color: white;
+    display: block;
+    font-family: "Azonix", sans-serif;
+    font-size: 95%;
+    margin-left: 2%;
+    position: absolute;
+    margin-right: -10%;
+    margin-top: 0%;
+
+}
+.welcome {
+    color: #e93190;
+    font-size:  140%;
+    margin-top: 10%;    
+    margin-left: 18%;
+    letter-spacing: 6px;
+    font-family: "Nineteenth", sans-serif;
+    pointer-events: none;
+
+}
+/* .welcome::after{
+
+     display: block;
+    content: '';
+      width: 12%;
+      height: 2%;
+      background: #fff  ;
+      position: absolute;
+      top: 110%;
+      bottom: 0;
+      left: 0;
+    } */
+
+
+.title h1{
+    margin-top: 2%;
+    margin-left: 18%;
+    font-size: 400%;
+    font-family: "Azonix", sans-serif;
+    letter-spacing: 0px;
+    background: #f6f6f6;
+    font-weight: 100;
+    background-clip: text;
+    color: transparent;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    align-items: right;
+    pointer-events: none;
+   
+}
+.title h1::after{
+
+    display: block;
+   content: '';
+     width: 6%;
+     height: 2%;
+     background: #fff  ;
+     position: absolute;
+     top: 110%;
+     bottom: 0;
+     left: 18%;
+   }
+
+
+
+
+.description {
+    font-family: "Quicksand", sans-serif;
+    color: #fff;
+    float: right;
+    margin-top: -4%;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-right: 3%;
+    font-size: 100%;
+    }
+.description p::after{
+    display: block;
+    content: '';
+    width: 2px; 
+    height: 70%;
+    background: #fff  ;
+    position: absolute;
+    top: 15%;
+    bottom: 10%;
+    left: -5%;
+    transform: translateX(-50%);
+}
+
+.about{
+    margin-top: 35%;
+    margin-left: 18%;
+    font-size: 190%;
+    font-family: 'Azonix', sans-serif;
+    background: linear-gradient(to right, #ea2f90 0%, #ffff 60%);
+    background-clip: text;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.2rem;
+    
+    
+}
+.arvin > img{
+max-width: 100%;
+height: auto;
+margin-left: 13%;
+
+}
+.arvin h3{
+    position: absolute;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-left: 63%;
+    margin-top: -35%;
+    color: #ffffff;
+    letter-spacing: 5px;
+    background-clip: text;
+    font-family: "Nineteenth", sans-serif;
+    font-size: 300%;
+    position: relative;
+    
+}
+.arvin  h4{
+    color: #ea2f90;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    margin-top: -3%;
+    font-family: "Nineteenth", sans-serif;
+    float: right;
+    margin-right: 24%;
+    font-size: 150%;
+    letter-spacing: 5px;
+
+}
+
+.arvin p{
+    font-size: 100%;
+    margin-top: 0%;
+    max-width: 30%;
+    height: auto;
+    display: block;
+    float: right;
+    margin-right: -21%;
+    color:  white;
+    text-align: right;;
+    margin-top: 0%;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    padding-right: 2%;
+    
+}
+
+.arvin p::after{
+    display: block;
+    content: '';
+    width: 2px;
+    height: 98%;
+    background: #fff  ;
+    position: absolute;
+    top: 5%;
+    bottom: 10%;
+    left: 95%;
+    transform: translateX(100%);
+}
+
+.aaron img{
+    
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin-top: 30%;
+    margin-left: 60%;
+}
+.aaron h3{
+    position: absolute;
+    margin-top: -26%;
+    margin-left: 18%;
+    color: #ffffff;
+    letter-spacing: 5px;
+    background-clip: text;
+    font-family: "Nineteenth", sans-serif;
+    font-size: 300%;
+    position: relative;
+    
+}
+.aaron h4{
+    color: #ea2f90;
+    font-family: "Nineteenth", sans-serif;
+    margin-left: 18%;
+    margin-top: -3%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    float: left;
+    font-size: 150%;
+    letter-spacing: 5px;
+}
+
+.aaron p{
+    font-size: 100%;
+    margin-top: 0%;
+    display: block;
+    float: left;
+    max-width: 30%;
+    height: auto;
+    margin-left: 19%;
+    margin-right: 50%;
+    color:  white;
+    text-align: left;
+    position: absolute;
+    font-family: "Quicksand", sans-serif;
+    padding-right: 2%;
+    /* left: 4%; */
+}
+
+.aaron p::after{
+    display: block;
+    content: '';
+    width: 2px;
+    height: 98%;
+    background: #fff  ;
+    position: absolute;
+    top: 5%;
+    bottom: 10%;
+    left: -3%;
+    transform: translateX(100%);
+}
+
+.services h2{
+    margin-top: 35%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    justify-content: left;
+    margin-left: 18%;
+    font-size: 190%;
+    font-family: 'Azonix', sans-serif;
+    background: linear-gradient(to right, #ea2f90 0%, #ffff 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.2rem;
+    color: transparent;
+}
+.services p{
+    font-size: 100%;
+    margin-top: 2%;
+    display: block;
+    max-width: 60%;
+    height: auto;
+    justify-content: left;
+    margin-left: 18%;
+    color:  white;
+    text-align: left;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    
+
+}
+
+.services h3{
+    background: linear-gradient(to right, #43c3ac 0%, #ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-left: 18%;
+    font-size: 180%;
+    margin-top: 5%;
+    font-family: "Nineteenth", sans-serif;
+}
+.underservices p{
+    font-size: 100%;
+    margin-top: 2%;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    justify-content: left;
+    margin-left: 18%;
+    color:  white;
+    text-align: left;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    padding-right: 2%;
+}
+.underservices img{
+    max-width: 40%;
+    height: auto;
+    margin-top: 4%;
+    margin-left: 10%;
+}
+.underservices h2{
+    margin-left: 55%;
+    margin-top: -33%;
+    font-size: 170%;
+    position: relative;
+    background: linear-gradient(to right, #ea2f90 0%, #ffff 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Nineteenth", sans-serif;
+    font-weight: 100;
+}
+.underservices .text2{
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 50%;
+    height: auto;
+    display: block;
+    text-align: left;
+    font-size: 100%;
+    margin-top: 0%;
+    margin-right: 5%;
+    color:  white;
+    font-family: "Quicksand", sans-serif;    
+}
+
+.underservices .header2{
+    position: relative;
+    margin-top: 8%;
+    
+}
+
+.featuredprojects h2{
+    margin-top: 35%;
+    margin-left: 18%;
+    font-size: 190%;
+    font-family: 'Azonix', sans-serif;
+    background: linear-gradient(to left, #ea2f90 0%, #ffff 250%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.2rem;
+    color: transparent;
+}
+
+.featuredprojects p{
+    font-size: 100%;
+    margin-top: 2%;
+    margin-left: 18%;
+    margin-right: 20%;
+    color:  white;
+    text-align: left;
+    position: relative;
+    font-family: "Quicksand", sans-serif;
+    
+}
+.featuredprojects h3{
+    background: linear-gradient(to left, #43c3ac 0%, #ffff 200%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 100;
+    font-size: 200%;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-family: "Nineteenth", sans-serif;
+}
+
+.featuredprojects h4{
+    background: linear-gradient(to left, #43c3ac 0%, #ffff 300%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.1rem;
+    font-size: 180%;
+    font-weight: 100;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-family: "Nineteenth", sans-serif;
+
+}
+.projectname{
+    background: linear-gradient(to left, #43c3ac 0%, #ffff 300%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.1rem;
+    font-size: 180%;
+    font-weight: 100;
+    margin-left: 18%;
+    margin-top: 5%;
+    font-family: "Nineteenth", sans-serif;
+}
+
+.contacts h2 {
+    margin-top: 10vw; /* Adjusted margin */
+    margin-left: 18vw; /* Adjusted margin */
+    font-size: 2vw; /* Adjusted font size */
+    font-family: 'Azonix', sans-serif;
+    background: linear-gradient(to right, #ea2f90 0%, #ffff 70%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0.2rem;
+    color: transparent;
+}
+
+.contacts p {
+    font-size: 1vw; /* Adjusted font size */
+    margin-top: 2.5vw; /* Adjusted margin */
+    margin-left: 18vw; /* Adjusted margin */
+    color: white;
+    font-family: "Quicksand", sans-serif;
+}
+
+.contacts svg {
+    display: block;
+    margin-left: 18vw; /* Adjusted margin */
+    padding-top: 1vw; /* Adjusted padding */
+}
+
+.contacts h6 {
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    margin-left: 21vw; /* Adjusted margin */
+    display: inline;
+    position: absolute;
+    margin-top: -1.5vw; /* Adjusted margin */
+    font-weight: 100;
+}
+
+.text-box {
+    background-color: transparent;
+    float: right;
+    position: relative;
+    color: white;
+    margin-right: 10%; /* Adjusted margin */
+    margin-top: -20%; /* Adjusted margin */
+    width: 40%; /* Set width relative to the parent container */
+}
+
+.text-box input {
+    padding: 1.5vw; /* Adjusted padding */
+    margin: 1.25vw; /* Adjusted margin */
+    background: transparent;
+    border-color: #f5f5f5;
+    color: white;
+    border-width: 0.1vw; /* Adjusted border width */
+    width: 30%; /* Set width relative to the parent container */
+}
+
+.text-box textarea {
+    background: transparent;
+    border-color: #f5f5f5;
+    color: white;
+    margin-left: 3%; /* Adjusted margin */
+    padding: 1vw; /* Adjusted padding */
+    resize: none;
+    max-width: 80%;
+    height: auto; /* Set width relative to the parent container */
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;    
+}
+
+a:hover{
+color: #7FEDDF;
+
+}
+
+
+.navbar{
+    width: 100%;
+    height: 60px;    
+    max-width: 90%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    margin-top: 0%;
+    position: sticky;
+    
+    
+}
+
+.navbar a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 20px;
+    text-decoration: none;
+    position: relative;     
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.3s ease;
+}
+.navbar a::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Position at the center */
+    width: 0; /* Initially no width */
+    height: 4px; /* Border height */
+    background-color: #6eeffc;
+    transition: width 0.3s ease, left 0.3s ease; /* Transition for width and left */
+    transform: translateX(-50%); /* Center the element horizontally */
+}
+
+.navbar a:hover::before,
+.navbar a.active::before {
+    width: 100%; /* Enlarge the width on hover or when active */
+    left: 1; /* Move to the left edge to center the expansion */
+}
+.navbar::after{
+    display: block;
+    opacity: 0.3;
+    content: '';
+    width: 95vw;
+    height: 1px;
+    background: #fff  ;
+    position: absolute;
+    top: 62px;
+    bottom: 0;
+    left: 2.5%;
+}
+.navbar .links a{
+    font-size: 15px;
+    letter-spacing: 2.3px;
+    
+}
+.navbar .logo {
+    margin-left: 3%;
+    margin-top: 15px;
+    margin-right: -60%;
+ 
+ }
+.navbar .links{
+    font-family: "Nineteenth", sans-serif;
+    font-weight: 100; 
+    display: flex;
+    margin-right: -150px;
+    gap: 2rem;
+}
+

@@ -1,0 +1,245 @@
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+body {
+    background: url(Elements/finalbg.png) no-repeat; 
+    -moz-background-size: cover;  
+    -o-background-size: cover;
+       background-size: cover;
+    }
+.navbar{
+    margin-left: -20px;
+    margin-right: 5px;
+
+}
+.logoName{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    left: 4.5rem;
+    top: 3rem;
+
+
+}
+.logo img{
+    margin-left: 25%;
+}
+
+.welcome {
+    font-size: 3vw; /* Adjust the font size based on viewport width */
+    margin: 13vw; /* Adjust the margin based on viewport width */
+    /* Add other relative properties here */
+}
+.title h1{
+    font-size: 7vw;
+    margin-top: -10vw;
+    margin-left:  12.5vw;
+}
+
+.title h1::after{
+    width: 3rem;
+    margin-left: -5%;
+    height: -1vw;
+}
+
+.learn-more  {
+    margin-left: 7vw; /* Remove left margin */
+    max-width: 30%;
+    height: auto;
+    font-size: 0.5rem;
+}
+
+.description p{
+    font-size: 65%;
+    width: 150%;
+    margin-left: -15vw;
+    margin-right: 0vw;
+}
+.description p::after{
+     margin-left: -15vw;
+     width: 0.1vw;
+     margin-top: 1%;
+}
+.about{
+    font-size: 1rem;
+    margin-left: 11vw;
+}
+.arvin > img{
+    max-width: 30%;
+}
+.arvin > h3{
+  
+    font-size: 1rem; 
+     margin-top: -9em;
+    
+    max-width: 150%;
+    position: relative;
+    display: block;
+    left: -0.5em;
+    margin-right: 100%; /* changed margin-right to negative value */
+    white-space: nowrap;
+}
+
+.arvin > h4{
+    font-size: 0.8rem;
+    display: block;
+    left: 17em;
+    right: 0;    
+    position: absolute;
+    width: 150%;
+}
+
+.arvin p{
+    font-size: 50%;
+    position: absolute;
+    display: block;
+    right: 10em;
+    margin-top: 2vw;
+    max-width: 50%;
+}
+
+.arvin p::after{
+    margin-left: 2vw;
+    width: 0.1vw;
+}
+.aaron > img{
+    max-width: 30%;
+    margin-top: 40%;
+}
+.aaron > h3{
+    font-size: 1rem;
+    margin-top: -7em;
+    max-width: 150%;
+    position: relative;
+    display: block;
+    left: -1em;
+    margin-right: 100%; /* changed margin-right to negative value */
+    white-space: nowrap;
+}
+
+.aaron h4{
+    font-size: 0.8rem;
+    display: block;
+    left: -1.3em;
+
+    position: absolute;
+    width: 150%;
+}
+.aaron p{
+    font-size: 50%;
+    position: absolute;
+    display: block;
+    left: -1.1em;
+    max-width: 10rem;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+
+.aaron p::after{
+    left: -1.3em;
+    width: 0.1vw;
+}
+
+.services h2{
+    font-size: 1rem;
+    margin-left: 11vw;
+}
+
+.navbar{
+    max-width: 90%;
+    margin-left: 0%;
+}
+.navbar::after{
+    display: block;
+    width: 93%;
+    left: 2rem;
+    right: 2rem;  
+}
+    .navbar .links
+{
+    display: none;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    margin-top: 1rem;
+    right: 0%;
+    margin-left: 20rem;
+}
+
+.dropdown_menu {
+    display: block;
+}
+
+.description{
+    font-size: 3vw;
+    margin-left: -1vw;
+    margin-right: 0vw;
+    display: block;
+    text-align: left;
+}
+
+
+
+
+}
+.open{
+    display: block;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar{
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+    .body{
+        background-size: cover;
+    }
+    .welcome {
+        font-size: 3vw; /* Adjust the font size based on viewport width */
+        margin: 13vw; /* Adjust the margin based on viewport width */
+        /* Add other relative properties here */
+    }
+    .title h1{
+        font-size: 8vw;
+        margin: -1vw;   
+    }
+    h1::after{
+        width: 20vw;
+        height: -1vw;
+
+    .navbar .links
+    {
+        display: none;
+    }
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+}
+
+.dropdown_menu{
+    left: 2rem;
+    width: unset;
+    display: block;
+   }
+
+}   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+/* FOOTERS */
