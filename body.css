@@ -1,0 +1,10 @@
+body {
+  background: url(Elements/finalbg.png) no-repeat; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;  
+  -o-background-size: cover;
+  background-size: cover;
+  scroll-behavior: smooth;
+  margin: 0;
+
+}

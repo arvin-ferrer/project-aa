@@ -1,0 +1,391 @@
+
+@media (max-width: 480px) {
+body {
+    background: url(Elements/finalbg.png) no-repeat; 
+    -moz-background-size: cover;  
+    -o-background-size: cover;
+       background-size: cover;
+    }
+.navbar{
+    margin-left: -20px;
+    margin-right: 5px;
+
+}
+
+.logoName{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    width: 50%;
+    left: 5rem;
+    font-size: 0.8rem;
+    top: 3rem;
+
+
+}
+.logo img{
+    margin-left: 25%;
+}
+
+.welcome {
+    height: 100%;
+    font-size: 7vw;
+    display: block;
+    padding-top: 8%;
+    top: -10%;
+    text-align: center; /* Adjust the font size based on viewport width */
+    margin: 13vw; /* Adjust the margin based on viewport width */
+    /* Add other relative properties here */
+}
+.title h1{
+    font-size: 14vw;
+    text-align: center;
+    margin-top: -10vw;
+    margin-left:  0vw;
+}
+
+.title h1::after{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 6rem;
+    height: -1vw;
+}
+
+.learn-more  {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 45%;
+    width: 30%;
+    height: auto;
+    display: block;
+    justify-content: center;
+    font-size: 0.5rem;}
+
+.description p{
+    text-align: center;
+    font-size: 0.9rem;
+    opacity: 0.6;
+    width: 250%;
+    position: relative;
+    left: -190%;
+}
+.description p::after{
+     display: none;
+}
+
+.about{
+    font-size: 1.1rem;
+    margin-left: 11vw;
+    margin-top: 120%;
+}
+.arvin > img{
+    max-width: 40%;
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 0%;
+}
+.arvin > h3{
+  
+    font-size: 1.5rem; 
+    margin-top: 18%;
+    position: relative;
+    display: block;
+    height: auto;
+    right: 20%;
+    /* margin-right: -20%; changed margin-right to negative value */
+    white-space: nowrap;
+}
+
+.arvin > h4{
+    font-size: 0.8rem;
+    display: block;
+    margin-right: 8vw; 
+    position: relative;
+    max-width: 150%;
+}
+
+.arvin p{
+    font-size: 0.6rem;
+    position: absolute;
+    display: block;
+    margin-right: 8vw;
+    margin-top: 2vw;
+    max-width: 10rem;
+    width: 100%;
+}
+
+.arvin p::after{
+    margin-left: 2vw;
+    width: 0.1vw;
+}
+.aaron > img{
+    max-width: 40%;
+    margin-top: 55%;
+}
+.aaron > h3{
+    font-size: 1.5rem;
+    margin-top: -6em;
+    max-width: 150%;
+    position: relative;
+    display: block;
+    left: -1em;
+    margin-right: 100%; /* changed margin-right to negative value */
+    white-space: nowrap;
+}
+
+.aaron h4{
+    font-size: 0.8rem;
+    display: block;
+    left: -2em;
+    position: absolute;
+    width: 150%;
+}
+.aaron p{
+    font-size: 0.6rem;
+    position: absolute;
+    display: block;
+    left: -2em;
+    max-width: 10rem;
+    width: 100%;
+    margin-top: 2vw;
+}
+
+
+.aaron p::after{
+    left: -1.3em;
+    width: 0.1vw;
+}
+
+.services h2{
+    padding-top: 50%;
+    font-size: 1.1rem;
+    margin-left: 11vw;
+}
+.services p{
+    font-size: 0.8rem;
+    max-width: 80%;
+    margin-left: 11%;
+    position: relative;
+    text-align: left;
+}
+.services h3{
+    font-size: 1.2rem;
+    margin-left: 11%;
+}
+ 
+    .underservices .service {
+        font-size: 0.9rem;
+        margin-left: 11vw;
+        margin-top: -5%;
+        max-width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .underservices .heroimage img{
+        max-width: 80%;
+        height: auto;
+        margin-left: -30%;
+        margin-bottom: 20px;
+
+    }
+    .underservices h2{
+        margin-right: 10%;
+        margin-left: 35%; /* Adjust as needed */
+        font-size: 1.1em;
+        max-width: 100%;
+        margin-top: 10%;
+        text-align: right;
+        position: relative;
+        
+    }
+    
+    .underservices p {
+        font-size: 0.85rem;
+        opacity: 0.8;
+        width: 60%;
+        height: auto; /* Increased width */
+        text-align: right;
+        color: white;
+        }
+    
+    
+
+
+.featuredprojects h2{
+    margin-top: 60%;
+    margin-left: 11vw;
+    font-size: 1.1rem;
+
+}
+.featuredprojects p{
+    font-size: 0.8rem;
+    margin-left: 11vw;
+}
+.featuredprojects h3{
+    font-size: 1.2rem;
+    margin-left: 11vw;
+}
+.featuredprojects h4{
+    font-size: 1.2rem;
+    margin-left: 11vw;
+}
+
+
+.contacts {
+    margin-top: 50%;
+}
+.contacts h2{
+    font-size: 1.1rem;
+    margin-left: 11vw;
+}
+.contacts p{
+    font-size: 0.8rem;
+    max-width: 80%;
+    margin-left: 11vw;
+}
+
+.contacts > svg{
+    margin-left: 11vw;
+    padding: 3%;
+    height: auto;
+}
+.contacts > h6{
+    margin-top: -8%;
+    margin-left: 24vw;
+}
+
+.text-box{
+    margin-top: 5%;
+    width: 100%;
+    /* margin-bottom: 20%; */
+    margin-left: 11vw;
+    position:absolute;
+}
+.text-box input{
+    width: 36%;
+    font-family: "Quicksand", sans-serif;
+}
+.text-box  textarea{
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 1vw;
+    font-family: "Quicksand", sans-serif;
+}
+
+.send-button a{
+    margin-left: 11vw;
+    position: absolute;
+    
+}
+
+.navbar{
+    max-width: 90%;
+    margin-left: 0%;
+}
+
+.navbar a:hover::before,
+.navbar a.active::before {
+    width: 30%; /* Enlarge the width on hover or when active */
+    left: 1; /* Move to the left edge to center the expansion */
+}
+.navbar::after{
+    display: block;
+    width: 85%;
+    left: 2rem;
+    right: 2rem;  
+}
+    .navbar .links
+{
+    display: none;
+}
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    margin-top: 1rem;
+    right: 0%;
+    margin-left: 20rem;
+}
+
+.dropdown_menu {
+    display: block;
+}
+
+.description {
+  
+    margin-right: 0vw;
+ }
+
+}
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+
+
+
+
+.open{
+    display: block;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .navbar{
+        margin-left: -20px;
+        margin-right: 5px;
+    }
+    .body{
+        background-size: cover;
+    }
+    .welcome {
+        font-size: 3vw; /* Adjust the font size based on viewport width */
+        margin: 13vw; /* Adjust the margin based on viewport width */
+        /* Add other relative properties here */
+    }
+    .title h1{
+        font-size: 8vw;
+        margin: -1vw;   
+    }
+    h1::after{
+        width: 20vw;
+        height: -1vw;
+
+    .navbar .links
+    {
+        display: none;
+    }
+
+.navbar .toggle_btn{
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: block;
+}
+
+.dropdown_menu{
+    left: 2rem;
+    width: unset;
+    display: block;
+   }
+
+}   
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+    
+}
+/* FOOTERS */

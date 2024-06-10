@@ -1,0 +1,89 @@
+
+
+/* FADE IN/OUT ANIMATION */
+.hidden-left {
+    opacity: 0;
+    filter: blur(25px);
+    transform: translateX(-100%);
+    transition: all 1s;
+    z-index: -999;
+
+}
+
+.hidden-right{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(100%);
+    transition: all 1s;
+    z-index: -999;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    z-index: -999;
+}
+
+.welcome{
+    transition-delay: 200ms;
+}
+.title{
+    transition-delay: 90ms;
+}
+.learn-more{
+    transition-delay: 250ms;
+}
+
+
+.description{
+    transition-delay: 100ms;
+}
+.ball2{
+    transition-delay: 700ms;
+}
+.ball{
+    transition-delay: 900ms;
+}
+.aaron img{
+    transition-delay: 800ms;
+}
+.about{
+    transition-delay: 100ms;
+}
+.arvin{
+    transition-delay: 700ms;
+}
+
+/*FLOATING ANIMATION FOR BALLS*/
+/* @keyframes floatAnimationforbox {
+    
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-40px); }
+    100% { transform: translateY(0); }
+   
+  }
+  
+  .box {
+    animation: floatAnimationforbox 3s ease-in-out infinite;
+  }
+@keyframes floatingAnimationforblueball{
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+    60% {transform: translateX(0px);}
+    80% { transform: translateX(-500px);}  
+    100% { transform: translateX(0); }  
+}
+    .ball{
+        animation: floatingAnimationforblueball 8s ease-in-out infinite;
+    }
+
+    @keyframes floatAnimationforball {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-50px); }
+        100% { transform: translateY(0); }
+      }
+      
+      .ball2 {
+        animation: floatAnimationforball 5s ease-in-out infinite;
+      } */

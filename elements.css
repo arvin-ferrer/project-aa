@@ -1,0 +1,45 @@
+
+.logo img{
+    width: 25%;
+    height: 25%;
+    
+}
+
+.arvin svg{
+    float: right;
+    margin-bottom: 0%;
+    
+}
+
+.ball1 > svg{
+    position: absolute;
+    float: right;
+    left: 75%;
+    margin-top: -30%;
+}
+.ball2 > svg{
+    position: absolute;
+    z-index: -999;
+    margin-top: 10%;
+    right: 61%;
+}
+
+.cube1 > svg{
+    position: absolute;
+    z-index: -999;
+    left: 75%;
+    margin-top: -30%;
+}
+
+.cube2 >svg{
+    position: absolute;
+    z-index: -999;
+    right: 30%;
+    margin-top: 40%;
+}
+.cube3 > svg{
+    position: absolute;
+    z-index: -999;
+    margin-top: 60%;
+    left: 75%; 
+}

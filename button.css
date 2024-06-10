@@ -1,0 +1,54 @@
+.learn-more a{
+    font-family: "Nineteenth", sans-serif;
+    font-weight: 100; /* Make the button text normal */
+    background: linear-gradient(to right, #e93190 0%, #ffffff 310%); /* Button background color */
+    color: white;
+    padding: 1em 1em; /* Add padding to the button */
+    font-size: 1em; /* Font size of the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    letter-spacing: 0.15em;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add transition effect */
+    box-shadow: 0 0 0.8em #f098c6;
+    transform: scale(1); /* Set initial scale */
+    border-top: 4px;
+    z-index: 1;
+    float: left;
+    display: block;
+    max-width: 100%;
+    height: auto    ;
+    margin-left: 18%;
+}
+
+.learn-more:hover a{
+    background-color: #ffffff; /* Change background color on click */
+    color: #f098c6; /* Change text color on click */
+    transform: scale(0.95);  /* Scale down on click */
+  
+}
+
+.send-button a{
+    font-family: "Nineteenth", sans-serif;
+    font-weight: lighter; /* Make the button text normal */
+    background: linear-gradient(to right, #e93190 0%, #ffffff 310%); /* Button background color */
+    color: white;
+    padding: 10px 20px; /* Add padding to the button */
+    font-size: 93%; /* Font size of the button text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border: unset;
+    letter-spacing: 0.1em;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s; /* Add transition effect */
+    box-shadow: 0 0 0.8em #f098c6;
+    transform: scale(1); /* Set initial scale */
+    position: absolute;
+    z-index: 1;
+    margin-left: 1.3vw;
+    margin-top: 1%;
+
+}
+
+.send-button:hover a{
+    background-color: #ffffff; /* Change background color on click */
+    color: #f098c6; /* Change text color on click */
+    transform: scale(0.95); /* Scale down on click */
+  
+}
