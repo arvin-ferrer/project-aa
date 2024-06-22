@@ -11,35 +11,25 @@
     
 }
 
-.ball1 > svg{
+.cube1 img{
+    width: 15%;
     position: absolute;
-    float: right;
-    left: 75%;
-    margin-top: -30%;
+    height: auto;
+    right: 0;
+    margin-top: -10%;
 }
-.ball2 > svg{
+.sphere2 img{
     position: absolute;
-    z-index: -999;
-    margin-top: 10%;
-    right: 61%;
+    width: 25%;
+    height: auto;
+    left: 0;
+    margin-top: 15%;
 }
-
-.cube1 > svg{
+.sphere1 img{
     position: absolute;
-    z-index: -999;
-    left: 75%;
-    margin-top: -30%;
-}
-
-.cube2 >svg{
-    position: absolute;
-    z-index: -999;
-    right: 30%;
-    margin-top: 40%;
-}
-.cube3 > svg{
-    position: absolute;
-    z-index: -999;
-    margin-top: 60%;
-    left: 75%; 
+    right: 0;
+    width: 30%;
+    height: auto;
+    margin-right: -5%;
+    margin-top: -25%;
 }

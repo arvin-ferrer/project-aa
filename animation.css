@@ -54,9 +54,9 @@
 .arvin{
     transition-delay: 700ms;
 }
-
-/*FLOATING ANIMATION FOR BALLS*/
-/* @keyframes floatAnimationforbox {
+/* 
+FLOATING ANIMATION FOR BALLS
+ @keyframes floatAnimationforbox {
     
     0% { transform: translateY(0); }
     50% { transform: translateY(-40px); }
@@ -64,10 +64,19 @@
    
   }
   
-  .box {
+  .cube1 {
     animation: floatAnimationforbox 3s ease-in-out infinite;
-  }
-@keyframes floatingAnimationforblueball{
+   }
+   .sphere2{
+    animation: floatAnimationforbox 3s ease-in-out infinite;
+   }
+   .sphere1{
+  animation: floatAnimationforbox 3s ease-in-out infinite;
+    
+} */
+   
+
+/* @keyframes floatingAnimationforblueball{
     0% { transform: translateY(0); }
     50% { transform: translateY(-30px); }
     60% {transform: translateX(0px);}
@@ -86,4 +95,4 @@
       
       .ball2 {
         animation: floatAnimationforball 5s ease-in-out infinite;
-      } */
+      }   */
