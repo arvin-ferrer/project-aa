@@ -22,7 +22,7 @@
     height: auto;
     text-decoration: none;
     color: inherit;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(234, 255, 255, 0.1);
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -33,7 +33,7 @@
 
 .card:hover {
     transform: scale(1.03);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .card-image img {
@@ -52,7 +52,7 @@
     margin: 0 0 10px 0;
     font-family: "Nineteenth", sans-serif;
     letter-spacing: 2px;
-    color: #ccc;
+    color: #ffffff;
     font-size: 24px;
 }
 .card-content h2:hover{
@@ -66,7 +66,7 @@
 }
 
 .card-content .tags span {
-    background-image: linear-gradient(to left, #3d00219c 0%, #89004797 70%); 
+    background: rgba(234, 255, 255, 0.23); 
     color: #ffffff;
     display: inline-flex;
     font-family: "Quicksand", sans-serif;

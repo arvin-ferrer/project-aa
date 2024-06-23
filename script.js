@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
       document.querySelector('.content').style.display = 'block';
       document.body.style.overflowY = 'auto'; // Enable vertical scrolling only
       document.body.style.overflowX = 'hidden'; // Disable horizontal scrolling
-    }, 2000);
+    }, 5000);
   });
   
 

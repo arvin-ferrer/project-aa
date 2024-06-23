@@ -13,12 +13,13 @@ html{
 .logoName p{
     color: white;
     display: block;
+    position: absolute;
     font-family: "Azonix", sans-serif;
     font-size: 95%;
     letter-spacing: 1px;
     margin-left: 1%;
     position: absolute;
-    /* margin-right: -10%; */
+    margin-right: -10%;
     margin-top: 0%;
 
 }
